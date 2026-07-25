@@ -1,0 +1,32 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of Coris public hosts
+notes: >-
+  Coris publishes developer docs on a password-gated ReadMe (docs.coris.ai). The
+  /.well-known/security.txt and /llms.txt paths on that host return HTTP 200 but
+  serve the ReadMe "Password Protected" HTML interstitial, not a real RFC 9116
+  policy or llms.txt index — recorded as password-walled, not present. No public
+  well-known discovery documents were found.
+hosts:
+- host: https://www.coris.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://docs.coris.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    note: ReadMe password-protected interstitial (not a real security.txt)
+  - path: /llms.txt
+    status: 200
+    note: ReadMe password-protected interstitial (not a real llms.txt)
+- host: https://api.coris.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404

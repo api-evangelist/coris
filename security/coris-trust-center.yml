@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+url: https://app.vanta.com/coris.ai/trust/arsi94297t65innpfr1how
+platform: Vanta
+source: https://www.coris.ai/ (Trust Center link)
+certifications: []
+notes: >-
+  Coris operates a public Vanta-hosted Trust Center, linked from its marketing site.
+  The specific named certifications (e.g. SOC 2) are rendered client-side by Vanta's
+  SPA and could not be extracted verbatim from public surfaces, so none are asserted
+  here to avoid fabrication. The Trust Center URL itself is verified. No `Compliance`
+  pointer is emitted because no named certification was confirmed.
+evidence:
+- source: https://www.coris.ai/
+  kind: trust-center-link
+  url: https://app.vanta.com/coris.ai/trust/arsi94297t65innpfr1how

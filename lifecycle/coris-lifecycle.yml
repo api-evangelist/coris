@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.coris.ai
+status_page: https://status.coris.ai
+status_page_platform: Atlassian Statuspage
+versioning:
+  scheme: unknown
+  note: >-
+    Coris publishes a REST API but its reference is behind a password-gated ReadMe
+    portal (docs.coris.ai); versioning and deprecation policy could not be verified
+    from public surfaces.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+deprecated_operations: []

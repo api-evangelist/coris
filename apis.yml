@@ -1,8 +1,31 @@
 aid: coris
 name: Coris
-description: 'Coris is a company surfaced as a portfolio company of lux-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Coris is an AI platform for merchant and payment risk, providing modern
+  risk infrastructure for vertical SaaS platforms, payment processors, ISOs, PayFacs,
+  and sponsor banks. Its MerchantProfiler product returns 100+ structured data attributes
+  on any business — pulled from Secretary of State records, online presence, customer
+  reviews, website/content signals, adverse media, and operational data — to power
+  faster, more accurate merchant onboarding, KYB, underwriting, and ongoing risk monitoring.
+  The platform also spans transaction monitoring, AI risk agents, and managed risk
+  workflows, exposed through both a no-code console and REST APIs so customers can
+  automate the full merchant lifecycle. Founded in 2022 and based in Palo Alto, Coris
+  is backed by Lux Capital, Exponent Founders Capital, and Y Combinator, and works
+  with companies including GoFundMe, Kajabi, Clio, and Cherry. Developer documentation
+  is published on a password-gated ReadMe portal; this profile was enriched from public
+  surfaces (marketing site, status page, trust center, legal pages).'
 url: https://raw.githubusercontent.com/api-evangelist/coris/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://files.readme.io/3f05149-small-Coris_Logo_vF_w_With_padding.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,13 +34,54 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Risk
+- Fraud
+- Payments
+- Merchant Onboarding
+- KYB
+- Underwriting
+- Artificial Intelligence
 apis: []
+common:
+- type: Website
+  url: https://www.coris.ai/
+- type: DeveloperPortal
+  url: https://docs.coris.ai/
+- type: Documentation
+  url: https://docs.coris.ai/
+- type: Blog
+  url: https://www.coris.ai/blog
+- type: StatusPage
+  url: https://status.coris.ai
+- type: TrustCenter
+  url: https://app.vanta.com/coris.ai/trust/arsi94297t65innpfr1how
+- type: Integrations
+  url: https://www.coris.ai/integrations
+- type: SignUp
+  url: https://www.coris.ai/contact-us
+- type: TermsOfService
+  url: https://www.coris.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.coris.ai/privacy-policy
+- type: TrustCenter
+  url: security/coris-trust-center.yml
+- type: DomainSecurity
+  url: security/coris-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/coris-lifecycle.yml
+- type: WellKnown
+  url: well-known/coris-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
